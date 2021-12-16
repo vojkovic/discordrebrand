@@ -1,13 +1,16 @@
 @font-face {
     font-family: 'Ginto-Ultra';
+    font-display: swap;
     src:  url("/woff2/ABCGintoNord-Ultra-Trial.woff2");
 }
 @font-face {
     font-family: 'Ginto-Black';
+    font-display: swap;
     src:  url("/woff2/ABCGintoNord-Black-Trial.woff2");
 }
 @font-face {
     font-family: 'Whitney';
+    font-display: swap;
     src:  url("/woff2/Whitney-Medium.woff2");
 }
 
@@ -54,14 +57,12 @@ h1 {
     font-size: 1.25vw;
     font-family: 'Whitney';
     line-height: 1.4;
-    font-weight: 50;
 }
 .pblack {
     color: #23272a;
     font-size: 1.25vw;
     font-family: 'Whitney';
     line-height: 1.4;
-    font-weight: 50;
 }
 h2 {
     color: #ffffff;
@@ -96,7 +97,6 @@ h3 {
     margin: 0%;
     width: 100%;
     font-size: 3.3%;
-    font-weight: 800;
     height: auto;
     padding: 0%;
 }
@@ -107,7 +107,6 @@ h3 {
     width: 100%;
     margin: 0%;
     font-size: 3.3%;
-    font-weight: 800;
     height: auto;
     padding: 0%;
 }
@@ -133,7 +132,6 @@ h3 {
     float: left;
     width: 100%;
     font-size: 3.3%;
-    font-weight: 800;
     height: auto;
     text-align:left ;
     margin: 0%;
