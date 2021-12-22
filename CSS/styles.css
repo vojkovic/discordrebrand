@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Ginto-Ultra';
     font-display: swap;
-    src:  url("/woff2/ABCGintoNord-Ultra-Trial.woff2");
+    src:  url("/Fonts/ABCGintoNord-Ultra-Trial.woff2");
 }
 @font-face {
     font-family: 'Ginto-Black';
     font-display: swap;
-    src:  url("/woff2/ABCGintoNord-Black-Trial.woff2");
+    src:  url("/Fonts/ABCGintoNord-Black-Trial.woff2");
 }
 @font-face {
     font-family: 'Whitney';
     font-display: swap;
-    src:  url("/woff2/Whitney-Medium.woff2");
+    src:  url("/Fonts/Whitney-Medium.woff2");
 }
 
 html {
-    min-height:100%;
+    min-height:100vw;
     background-size:fill;
     overflow-x: hidden;
     background-blend-mode: darken;
@@ -28,23 +28,20 @@ a[href] {
 a:hover {
     color: #ffffff;
     text-decoration: underline;
-
 }
 body {
     overflow: visible;
     background-position: 0px 0px;
     position: relative;
     line-height: 1.4;
-    margin: 0%;
-    padding: 0%;
+    margin: 0vw;
+    padding: 0vw;
 }
 h1 {
     color: #ffffff;
     font-size: 3.5vw;
-    font-weight: 800;
     text-transform: uppercase;
     text-rendering: geometricPrecision;
-    overflow: hidden;
     font-family: 'Ginto-Ultra';
 }
 .links {
@@ -67,62 +64,63 @@ h1 {
 h2 {
     color: #ffffff;
     font-size: 2vw;
+    line-height: 5vw;
     font-family: 'Ginto-Black';
 }
 h3 {
     color: #23272a;
     font-size: 2vw;
+    line-height: 5vw;
     font-family: 'Ginto-Black';
 }
 .nav {
-    margin: 0%;
-    width: 50%;
-    text-align: left;
+    padding-top: 100vw;
+    display:inline;
+    object-position: center top;
     overflow: hidden;
 }
 .title {
     text-align: center;
+    align-items: left;
     background-color: #5865F2;
-    padding: 2.5%;
-    min-height:100%;
+    margin: 0vw;
+    height:auto;
     background: url(/Pictures/asset.svg);
     background-size:cover;
-    height: auto;
-    background-blend-mode: darken;
 }
 .info {
     background-color: #ffffff ;
     text-align:right ;
     float: right;
-    margin: 0%;
-    width: 100%;
-    font-size: 3.3%;
+    margin: 0vw;
+    width: 100vw;
+    font-size: 3.3vw;
     height: auto;
-    padding: 0%;
+    padding: 0vw;
 }
 .offinfo {
     background-color: #f6f6f6;
     text-align:left ;
     float: left;
-    width: 100%;
-    margin: 0%;
-    font-size: 3.3%;
+    width: 100vw;
+    margin: 0vw;
+    font-size: 3.3vw;
     height: auto;
-    padding: 0%;
+    padding: 0vw;
 }
 .rtext {
-    width:100%;
+    width:100vw;
     max-width: 30vw;
     float: right;
-    padding: 10%;
+    padding: 10vw;
     white-space: initial;
     word-wrap: break-word;
 }
 .ltext {
-    width:100%;
+    width:100vw;
     max-width: 30vw;
     float: left;
-    padding: 10%;
+    padding: 10vw;
     white-space: initial;
     word-wrap: break-word;
 }
@@ -130,10 +128,10 @@ h3 {
     background-color: #23272a ;
     text-align:left ;
     float: left;
-    width: 100%;
-    font-size: 3.3%;
+    width: 100vw;
+    font-size: 3.3vw;
     height: auto;
     text-align:left ;
-    margin: 0%;
-    padding: 0%;
+    margin: 0vw;
+    padding: 0vw;
 }
