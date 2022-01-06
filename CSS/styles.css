@@ -135,3 +135,12 @@ h3 {
     margin: 0vw;
     padding: 0vw;
 }
+.box {
+    margin: 3vw;
+    width: 15vw;
+    float: left;
+    display:inline-table;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+}
