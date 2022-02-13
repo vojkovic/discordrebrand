@@ -168,8 +168,8 @@ function App() {
 <FadeInSection>
 <video width="auto" controls style={{float: 'left', margin: '10vw', maxWidth: '30vw', minHeight: '5vw', aspectRatio: '16 / 9'}} alt="">
   <source src="Videos/video.webm" type="video/webm" /> </video>
-    <div className="rtext">
-      <h3 id="About"> About </h3>
+    <div className="rtext" id="About">
+      <h3> About </h3>
       <p className="pblack">
         At Discord, our main motive has always been to bring people together.
         However, over the years, we've realised that video calls and group chats
@@ -187,8 +187,8 @@ function App() {
   <div className='rightimages'>
   <img src="Pictures/products.svg" alt=""draggable="false" controls />
   </div>
-    <div className="ltext">
-      <h3 id="Products"> Products </h3>
+    <div id="Products" className="ltext">
+      <h3> Products </h3>
       <p className="pblack">
         Discord is proud to release our latest products, a vast suite of cords.
         Yes, that's right. We're putting the cord back into Discord. Regardless
@@ -211,8 +211,8 @@ function App() {
     <div className='leftimages'>
     <img src="./Pictures/goals.svg" alt=""draggable="false" />
     </div>
-    <div className="rtext">
-      <h3 id="Goals"> Goals </h3>
+    <div id="Goals" className="rtext">
+      <h3> Goals </h3>
       <p className="pblack">
         As mentioned before, we want to stop harming youth who are using our
         platform. With the conclusion of the 2021 Glasgow climate summit, we've
@@ -233,8 +233,8 @@ function App() {
     <div className='rightimages'>
     <img src="Pictures/merch.svg" alt=""draggable="false" controls/>
     </div>
-    <div className="ltext">
-      <h3 id="Merch"> Merch </h3>
+    <div id="Merch" className="ltext">
+      <h3> Merch </h3>
       <p className="pblack">
         With Discord's rebrand, we're also extremely excited to launch a new
         merchandise line. These clothing items, ranging from shirts to socks,
@@ -244,9 +244,8 @@ function App() {
     </div>
     </FadeInSection>
   </div>
-  <div className="end">
-  <FadeInSection>
-    <h2 id="Legal" style={{ marginLeft: "10vw", marginTop: "10vw" }}>
+  <div className="end" id="Legal">
+    <h2 style={{ marginLeft: "10vw", marginTop: "10vw" }}>
       {" "}
       Legal
     </h2>
@@ -287,7 +286,6 @@ function App() {
         website is licensed under GPL 3.0.
       </p>{" "}
     </div>
-    </FadeInSection>
   </div>
 </div>
   );
